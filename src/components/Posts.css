@@ -1,0 +1,5 @@
+.posts{
+    width:100%;
+    height:fit-content;
+    overflow-y:scroll;
+}

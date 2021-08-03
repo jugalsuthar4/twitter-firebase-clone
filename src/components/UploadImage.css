@@ -1,0 +1,18 @@
+.upload-image{
+    height:100vh;
+    width:100%;
+    display: grid;
+    place-items: center;
+}
+.upload >button{
+    all:unset;
+    padding: 5px 10px;
+    border: 1px solid #03A9F4;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}

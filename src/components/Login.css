@@ -1,0 +1,48 @@
+.login{
+    height:100vh;
+    width:100%;
+    display:grid;
+    place-items: center;
+     color:#03A9F4;
+}
+.form{
+  width:300px;
+  height:600px;
+  
+
+}
+.form > img{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.form > h2{
+  width:100%;
+  text-align:center;
+}
+.textfield{
+    border-color: #03A9F4;
+}
+.login__button{
+    all:unset;
+   width:300px;
+   box-shadow: none;
+   background-color: #03A9F4;
+   outline:inherit;
+   height:35px;
+   text-align:center;
+   border-radius: 15px;
+   color:#fafafa;
+   cursor: pointer;
+} 
+.form > h5{
+    color:#03A9F4;
+    font-size: small;
+    font-weight:normal;
+    width:100%;
+    text-align:center
+}
+.signup__link{
+  text-decoration:none;
+  color:#03A9F4;
+}

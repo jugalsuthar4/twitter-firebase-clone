@@ -1,0 +1,54 @@
+.rightsidebar{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px 15px;
+}
+.search{
+    display:flex;
+    align-items:center;
+    background-color:#f1f1f1;
+    padding:10px;
+    border-radius:20px;
+}
+.search > input {
+    border:none;
+    background-color:#f1f1f1;
+    outline:0;
+    width:300px;
+}
+
+.topics-to-follow{
+    background-color: #f1f1f1;
+    width:350px;
+    margin-top:40px;
+     padding:10px;
+     border-radius: 25px;
+}
+.topics-to-follow > h2{
+    border-bottom: 1px solid lightgrey;
+    padding:10px 0;
+}
+.topics-list{
+    display:flex;
+    align-items: center;
+    padding:8px;
+    padding:15px 0;
+    border-bottom: 1px solid lightgrey;
+}
+.topics-list > p{
+    font-weight: bold;
+}
+.follow-button{
+    all:unset;
+    display: block;
+    margin-left:auto;
+    cursor: pointer;
+    border:1px solid #03A9F4;
+    padding:8px 15px;
+    border-radius:50px;
+}
+
+.topics-list > button:hover{
+  background-color: rgba(3,169,224,0.2);
+}
